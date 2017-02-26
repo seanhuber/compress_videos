@@ -29,5 +29,5 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 
 gem 'awesome_print', require: 'ap'
-
+gem 'sr_log', '~> 1.0.1'
 gem 'listen'
