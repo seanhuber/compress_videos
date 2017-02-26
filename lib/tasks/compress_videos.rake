@@ -1,7 +1,7 @@
 desc 'scans a directory for video files and compresses them using ffmpeg'
 task compress: :environment do
-  input_dir  = '/home/sean/Videos/2016.10.14 flight lesson'
-  output_dir = '/home/sean/Videos/2016.10.14_flight_lesson_compressed'
+  input_dir  = '/home/sean/Videos/uncompressed'
+  output_dir = '/home/sean/Videos/compressed'
   Compressor.compress input_dir, output_dir
 end
 
